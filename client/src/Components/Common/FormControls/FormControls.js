@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { Field } from 'redux-form';
 import s from './FormControls.module.sass'
 
