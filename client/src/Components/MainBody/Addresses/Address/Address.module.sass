@@ -1,0 +1,104 @@
+.body
+  width: 450px
+  margin-right: 10px
+  display: flex
+  background-color: #938286
+  border-radius: 15px 15px 0 0
+  transition-duration: 0.5s
+  overflow:hidden
+  &:hover
+    margin: 10px 0
+  p
+    cursor: default
+    border: 1px solid #35363F
+    height: 25px
+    margin: 0
+    display: flex
+    align-items: center
+    padding-right: 5px
+    padding-left: 17px
+    overflow-y: hidden
+    overflow-x: auto
+    white-space: nowrap
+    &::-webkit-scrollbar
+      border-radius: 10px
+      height: 3px
+    &::-webkit-scrollbar-thumb
+      cursor: pointer
+      border-radius: 10px
+      background-color: #35363F
+.adressInfo
+  overflow: hidden
+  width: 90%
+  padding: 5px
+  display: flex
+  flex-direction: column
+  gap: 10px
+.frstSection
+  display: flex
+  justify-content: center
+  gap: 5px
+.secSection
+  display: flex
+  gap: 5px
+.addBtn
+  width: 30%
+.city
+  background: #938286 url(../../../../assets/images/city.svg) no-repeat center left
+  width: 40%
+  padding-left: 20px !important
+  border-top-left-radius: 12px
+.width
+  background: #938286 url(../../../../assets/images/width.svg) no-repeat center left
+  background-size: 15px
+  width: 30%
+.height
+  background: #938286 url(../../../../assets/images/height.svg) no-repeat center left
+  border-top-right-radius: 12px
+  background-size: 15px
+  width: 30%
+.fullAddress
+  background: #938286 url(../../../../assets/images/fullAddress.svg) no-repeat center left
+  background-size: 18px
+  padding-left: 20px !important
+  width: 100%
+.tools
+  width: 10%
+  padding: 5px 0
+  padding-right:3px
+.map
+  font-size: 0
+  border-radius: 0
+  border-top-right-radius: 15px
+  border: 0
+  background: url(../../../../assets/images/map.svg) 50% 50% no-repeat
+  padding: 15px
+  &:hover
+    transform: scale(1.1)
+    background-color: #938286
+.delete
+  font-size: 0
+  border-radius: 0
+  border: 0
+  background: url(../../../../assets/images/delete.svg) 50% 50% no-repeat
+  padding: 15px
+.change
+  font-size: 0
+  border-radius: 0
+  border: 0
+  background: url(../../../../assets/images/change.svg) 50% 50% no-repeat
+  background-size: 20px
+  padding: 13px
+.map, .delete, .change
+  &:hover
+    transform: scale(1.1)
+    background-color: #938286
+@media screen and (max-width : 500px )
+  .body
+    max-width: 400px
+@media screen and (max-width : 450px )
+  .body
+    max-width: 350px
+@media screen and (max-width : 380px )
+  .body
+    max-width: 300px
